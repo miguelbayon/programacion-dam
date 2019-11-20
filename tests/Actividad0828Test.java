@@ -230,7 +230,7 @@ public class Actividad0828Test
         mail = clienteMaria.getNextMailItem();
         assertEquals("2,0,pepe@gmail.com,7", clienteMaria.getStatus());        
 
-        clienteJuan.sendMailItem("juan@gmail.com", "Hola", "Hola!!!!!");
+        clienteJuan.sendMailItem("maria@gmail.com", "Hola", "Hola!!!!!");
         mail = clienteMaria.getNextMailItem();
         assertEquals("3,0,juan@gmail.com,9", clienteMaria.getStatus());       
 
