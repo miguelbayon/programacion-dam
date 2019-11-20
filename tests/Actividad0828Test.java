@@ -28,7 +28,7 @@ public class Actividad0828Test
         assertEquals("Hola", mail.getSubject());
 
         clienteMaria.sendMailItem("pepe@gmail.com", "Hola de vuelta", "Hola, Pepe! Soy Maria.");
-        MailItem secondMail = clienteMaria.getNextMailItem();
+        MailItem secondMail = clientePepe.getNextMailItem();
         assertEquals("pepe@gmail.com", secondMail.getTo());
         assertEquals("maria@gmail.com", secondMail.getFrom());
         assertEquals("Hola, Pepe! Soy Maria.", secondMail.getMessage());
