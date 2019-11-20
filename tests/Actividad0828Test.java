@@ -216,7 +216,7 @@ public class Actividad0828Test
         MailClient clienteMaria = new MailClient(gmailServer, "maria@gmail.com");   
         MailClient clienteJuan = new MailClient(gmailServer, "juan@gmail.com");
 
-        assertEquals("0,0,,0", clienteMaria.getStatus());        
+        assertEquals("0,0,,", clienteMaria.getStatus());        
 
         clientePepe.sendMailItem("maria@gmail.com", "Hola", "Hola!"); 
         MailItem mail = clienteMaria.getNextMailItem();
