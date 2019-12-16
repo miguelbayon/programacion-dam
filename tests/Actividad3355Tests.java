@@ -409,6 +409,7 @@ public class Actividad3355Tests {
         assertEquals("1. Estudiar programacion\n2. Llamar a mi amigo\n" , gestorTa1.getListadoTareas());          
     } */  
     
+    @Test
     public void testMetodo38() {
         GestorTareas gestorTa1 = new GestorTareas();
 
