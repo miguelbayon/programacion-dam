@@ -409,8 +409,6 @@ public class Actividad3355Tests {
         assertEquals("1. Estudiar programacion\n2. Llamar a mi amigo\n" , gestorTa1.getListadoTareas());          
     } */  
     
-
-    @Test
     public void testMetodo38() {
         GestorTareas gestorTa1 = new GestorTareas();
 
@@ -433,8 +431,8 @@ public class Actividad3355Tests {
         assertEquals("1. Jugar al fútbol\n2. Estudiar programación\n3. Hacer la cma\n" , gestorTa1.getListadoTareas());        
 
         assertEquals(true, gestorTa1.editarTarea(3, "Hacer la cama"));
-        assertEquals("1. Escribir diario\n2. Jugar a la consola\n3. Hacer la cama\n" , gestorTa1.getListadoTareas());        
-    }              
+        assertEquals("1. Jugar al fútbol\n2. Estudiar programación\n3. Hacer la cama\n" , gestorTa1.getListadoTareas());        
+    }             
     
     @Test
     public void testMetodo39y40() {
