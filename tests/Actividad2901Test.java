@@ -9,9 +9,9 @@ public class Actividad2901Test {
     public void testValoresNormales() {
         Actividad2901 objetoBase = new Actividad2901();
         assertEquals(90, objetoBase.sumaDeMultiplos(2, 20));
-        assertEquals(18, objetoBase.sumaDeMultiplos(3, 9));
+        assertEquals(18, objetoBase.sumaDeMultiplos(3, 12));
         assertEquals(4950, objetoBase.sumaDeMultiplos(1, 100));
-        assertEquals(75, objetoBase.sumaDeMultiplos(5, 30));
+        assertEquals(390, objetoBase.sumaDeMultiplos(5, 65));
     }
     
     @Test
