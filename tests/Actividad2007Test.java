@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class Actividad2007Test {
 
     @Test
-    public void test01() {
+    public void test01ColeccionEjemplo() {
         Actividad2007 ejercici1 = new Actividad2007();
 
         ArrayList<String> origen = new ArrayList<>(Arrays.asList("Mesa","Silla","Ordenador","Futbolin","Libros","Berenjenas"));
@@ -18,7 +18,7 @@ public class Actividad2007Test {
     }
 
     @Test
-    public void test02() {
+    public void test02ColeccionNormal() {
         Actividad2007 ejercici1 = new Actividad2007();
 
         origen = new ArrayList<>(Arrays.asList("Mesas","Silla","Ordenador","Esquinera","Libros","Berenjenas"));
@@ -27,7 +27,7 @@ public class Actividad2007Test {
     }
 
     @Test
-    public void test03() {
+    public void test03ColeccionNumerica() {
         Actividad2007 ejercici1 = new Actividad2007();
 
         origen = new ArrayList<>(Arrays.asList("1234a","12","1234b","1","1234567","1234c"));
@@ -36,7 +36,7 @@ public class Actividad2007Test {
     }
     
     @Test
-    public void test04() {
+    public void test04ColeccionGrande() {
         Actividad2007 ejercici1 = new Actividad2007();
 
         origen = new ArrayList<>(Arrays.asList("gente","esposo","mujer","matrimonio","amigo","pareja","colega","conocido","hombre","persona","familia","amor","humano"));
@@ -45,7 +45,7 @@ public class Actividad2007Test {
     }    
     
     @Test
-    public void test05() {
+    public void test05ColeccionVacia() {
         Actividad2007 ejercici1 = new Actividad2007();    
 
         origen = new ArrayList<>();
