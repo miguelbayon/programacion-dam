@@ -28,6 +28,24 @@ public class Actividad2007Test {
 
     @Test
     public void test03() {
+        Actividad2007 ejercici1 = new Actividad2007();
+
+        origen = new ArrayList<>(Arrays.asList("1234a","12","1234b","1","1234567","1234c"));
+        resultadoEsperado = "1234567,1234c,1234b,1234a,12,1";
+        assertEquals(resultadoEsperado, ejercici1.devolverEnOrden(origen));
+    }
+    
+    @Test
+    public void test04() {
+        Actividad2007 ejercici1 = new Actividad2007();
+
+        origen = new ArrayList<>(Arrays.asList("gente","esposo","mujer","matrimonio","amigo","pareja","colega","conocido","hombre","persona","familia","amor","humano"));
+        resultadoEsperado = "matrimoniom,conocido,familia,persona,humano,hombre,colega,pareja,esposo,amigo,mujer,gente,amor";
+        assertEquals(resultadoEsperado, ejercici1.devolverEnOrden(origen));
+    }    
+    
+    @Test
+    public void test05() {
         Actividad2007 ejercici1 = new Actividad2007();    
 
         origen = new ArrayList<>();
