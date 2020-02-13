@@ -21,7 +21,7 @@ public class Actividad4009Test {
   public void test02() {
     Actividad4009 objetoBase = new Actividad4009(); 
       
-    origen = new ArrayList<>(Arrays.asList("Madrid", "Madrid", "Pekin", "Roma", "Barcelona")); 
+    ArrayList<String> origen = new ArrayList<>(Arrays.asList("Madrid", "Madrid", "Pekin", "Roma", "Barcelona")); 
     assertEquals("Madrid", objetoBase.encontrarPalabraRepetida(origen)); 
   }
   
@@ -30,7 +30,7 @@ public class Actividad4009Test {
   public void test03() {
     Actividad4009 objetoBase = new Actividad4009(); 
 
-    origen = new ArrayList<>(Arrays.asList("Madrid", "madrid", "Pekin", "Roma", "Barcelona", "Munich", "Munich")); 
+    ArrayList<String> origen = new ArrayList<>(Arrays.asList("Madrid", "madrid", "Pekin", "Roma", "Barcelona", "Munich", "Munich")); 
     assertEquals("Munich", objetoBase.encontrarPalabraRepetida(origen));    
   }
   
@@ -39,7 +39,7 @@ public class Actividad4009Test {
   public void test04SinPalabraRepetida() {
     Actividad4009 objetoBase = new Actividad4009(); 
 
-    origen = new ArrayList<>(Arrays.asList("Madrid", "Roma", "Pekin", "Barcelona", "Sanghai")); 
+    ArrayList<String> origen = new ArrayList<>(Arrays.asList("Madrid", "Roma", "Pekin", "Barcelona", "Sanghai")); 
     assertNull(objetoBase.encontrarPalabraRepetida(origen));
   }
   
@@ -48,7 +48,7 @@ public class Actividad4009Test {
   public void test05ColeccionVacia() {
     Actividad4009 objetoBase = new Actividad4009();     
     
-    origen = new ArrayList<>(); 
+    ArrayList<String> origen = new ArrayList<>(); 
     assertNull(objetoBase.encontrarPalabraRepetida(origen)); 
   }
 }
