@@ -21,8 +21,8 @@ public class Actividad2007Test {
     public void test02ColeccionNormal() {
         Actividad2007 ejercici1 = new Actividad2007();
 
-        origen = new ArrayList<>(Arrays.asList("Mesas","Silla","Ordenador","Esquinera","Libros","Berenjenas"));
-        resultadoEsperado = "Berenjenas,Esquinera,Ordenador,Libros,Silla,Mesas";
+        ArrayList<String> origen = new ArrayList<>(Arrays.asList("Mesas","Silla","Ordenador","Esquinera","Libros","Berenjenas"));
+        String resultadoEsperado = "Berenjenas,Esquinera,Ordenador,Libros,Silla,Mesas";
         assertEquals(resultadoEsperado, ejercici1.devolverEnOrden(origen));
     }
 
@@ -30,8 +30,8 @@ public class Actividad2007Test {
     public void test03ColeccionNumerica() {
         Actividad2007 ejercici1 = new Actividad2007();
 
-        origen = new ArrayList<>(Arrays.asList("1234a","12","1234b","1","1234567","1234c"));
-        resultadoEsperado = "1234567,1234c,1234b,1234a,12,1";
+        ArrayList<String> origen = new ArrayList<>(Arrays.asList("1234a","12","1234b","1","1234567","1234c"));
+        String resultadoEsperado = "1234567,1234c,1234b,1234a,12,1";
         assertEquals(resultadoEsperado, ejercici1.devolverEnOrden(origen));
     }
     
@@ -39,8 +39,8 @@ public class Actividad2007Test {
     public void test04ColeccionGrande() {
         Actividad2007 ejercici1 = new Actividad2007();
 
-        origen = new ArrayList<>(Arrays.asList("gente","esposo","mujer","matrimonio","amigo","pareja","colega","conocido","hombre","persona","familia","amor","humano"));
-        resultadoEsperado = "matrimoniom,conocido,familia,persona,humano,hombre,colega,pareja,esposo,amigo,mujer,gente,amor";
+        ArrayList<String> origen = new ArrayList<>(Arrays.asList("gente","esposo","mujer","matrimonio","amigo","pareja","colega","conocido","hombre","persona","familia","amor","humano"));
+        String resultadoEsperado = "matrimoniom,conocido,familia,persona,humano,hombre,colega,pareja,esposo,amigo,mujer,gente,amor";
         assertEquals(resultadoEsperado, ejercici1.devolverEnOrden(origen));
     }    
     
@@ -48,8 +48,8 @@ public class Actividad2007Test {
     public void test05ColeccionVacia() {
         Actividad2007 ejercici1 = new Actividad2007();    
 
-        origen = new ArrayList<>();
-        resultadoEsperado = "";
+        ArrayList<String> origen = new ArrayList<>();
+        String resultadoEsperado = "";
         assertEquals(resultadoEsperado, ejercici1.devolverEnOrden(origen));        
     }
 }
