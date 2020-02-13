@@ -40,7 +40,7 @@ public class Actividad2007Test {
         Actividad2007 ejercici1 = new Actividad2007();
 
         ArrayList<String> origen = new ArrayList<>(Arrays.asList("gente","esposo","mujer","matrimonio","amigo","pareja","colega","conocido","hombre","persona","familia","amor","humano"));
-        String resultadoEsperado = "matrimoniom,conocido,familia,persona,humano,hombre,colega,pareja,esposo,amigo,mujer,gente,amor";
+        String resultadoEsperado = "matrimonio,conocido,familia,persona,humano,hombre,colega,pareja,esposo,amigo,mujer,gente,amor";
         assertEquals(resultadoEsperado, ejercici1.devolverEnOrden(origen));
     }    
     
