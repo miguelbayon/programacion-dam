@@ -60,7 +60,7 @@ public class Actividad4678Test
         // Come una paella
         assertEquals(800, persona1.comer(comida1));             
         assertEquals(2269, persona1.getCaloriasIngeridas()); 
-        // Come unas lentejas
+        // Come una ensalada
         assertEquals(-1, persona1.comer(comida5));             
         assertEquals(2269, persona1.getCaloriasIngeridas()); 
         
