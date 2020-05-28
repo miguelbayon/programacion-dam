@@ -6,8 +6,7 @@ import org.junit.Test;
 public class Actividad0899Test
 {
     @Test
-    public void TestApartado01()
-    {
+    public void TestApartado01() {
         // Se crea la tienda
         GooglePlay googlePlay = new GooglePlay();
         
@@ -101,8 +100,7 @@ public class Actividad0899Test
     
     
     @Test
-    public void TestApartado02()
-    {
+    public void TestApartado02() {
         // Se crea la tienda
         GooglePlay googlePlay = new GooglePlay();
         
