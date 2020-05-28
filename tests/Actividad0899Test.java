@@ -3,38 +3,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-/**
- * The test class GooglePlayTest01.
- */
 public class Actividad0899Test
 {
-    /**
-     * Default constructor for test class Actividad0899Test
-     */
-    public Actividad0899Test()
-    {
-    }
-
-    /**
-     * Sets up the test fixture.
-     *
-     * Called before every test case method.
-     */
-    @Before
-    public void setUp()
-    {
-    }
-
-    /**
-     * Tears down the test fixture.
-     *
-     * Called after every test case method.
-     */
-    @After
-    public void tearDown()
-    {
-    }
-
     @Test
     public void TestApartado01()
     {
@@ -187,7 +157,5 @@ public class Actividad0899Test
         assertEquals(0.99, googlePlay.comprar("juan.fernandez@gmail.com", "Gmail"), 0.0001);
         assertEquals(0.99, googlePlay.comprar("elena.perez@gmail.com", "Gmail"), 0.0001);
         assertEquals(10.00, googlePlay.comprar("pedro.garcia@gmail.com", "Gmail"), 0.0001);         
-    }    
-    
-        
+    }            
 }
