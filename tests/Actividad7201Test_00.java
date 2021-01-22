@@ -3,7 +3,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class Actividad7201_00
+public class Actividad7201Test_00
 {
     @Test
     public void test00_01()
