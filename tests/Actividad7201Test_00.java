@@ -13,7 +13,7 @@ public class Actividad7201Test_00
         gestorTa1.agregarTarea("Hacer la cama");
         assertEquals("Hacer la cama\n", gestorTa1.devolverTareas());
         gestorTa1.agregarTarea("Estudiar programación");
-        assertEquals("Hacer la cama\nEstudiar programación\n", gestorTa1.devolverTareas());
+        assertEquals("Hacer la cama\nEstudiar programacion\n", gestorTa1.devolverTareas());
         gestorTa1.agregarTarea("Comprar el pan");
         assertEquals("Hacer la cama\nEstudiar programación\nComprar el pan\n", gestorTa1.devolverTareas());
     }
@@ -25,7 +25,7 @@ public class Actividad7201Test_00
         assertEquals(0, gestorTa1.getNumeroTareas());
         gestorTa1.agregarTarea("Hacer la cama");
         assertEquals(1, gestorTa1.getNumeroTareas());
-        gestorTa1.agregarTarea("Estudiar programaciรณn");
+        gestorTa1.agregarTarea("Estudiar programacion");
         assertEquals(2, gestorTa1.getNumeroTareas());
         gestorTa1.agregarTarea("Comprar el pan");
         assertEquals(3, gestorTa1.getNumeroTareas());
@@ -38,7 +38,7 @@ public class Actividad7201Test_00
         assertEquals(0, gestorTa1.getNumeroTareas2());
         gestorTa1.agregarTarea("Hacer la cama");
         assertEquals(1, gestorTa1.getNumeroTareas2());
-        gestorTa1.agregarTarea("Estudiar programaciรณn");
+        gestorTa1.agregarTarea("Estudiar programacion");
         assertEquals(2, gestorTa1.getNumeroTareas2());
         gestorTa1.agregarTarea("Comprar el pan");
         assertEquals(3, gestorTa1.getNumeroTareas2());
