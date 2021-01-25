@@ -12,10 +12,10 @@ public class Actividad7201Test_00
         assertEquals("", gestorTa1.devolverTareas());
         gestorTa1.agregarTarea("Hacer la cama");
         assertEquals("Hacer la cama\n", gestorTa1.devolverTareas());
-        gestorTa1.agregarTarea("Estudiar programación");
+        gestorTa1.agregarTarea("Estudiar programacion");
         assertEquals("Hacer la cama\nEstudiar programacion\n", gestorTa1.devolverTareas());
         gestorTa1.agregarTarea("Comprar el pan");
-        assertEquals("Hacer la cama\nEstudiar programación\nComprar el pan\n", gestorTa1.devolverTareas());
+        assertEquals("Hacer la cama\nEstudiar programacion\nComprar el pan\n", gestorTa1.devolverTareas());
     }
 
     @Test
