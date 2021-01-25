@@ -22,10 +22,10 @@ public class Actividad7201Test_01
         assertEquals("[]", gestorTa1.getTareasEnUnaSolaLinea());
         gestorTa1.agregarTarea("Hacer la cama");
         assertEquals("[Hacer la cama]", gestorTa1.getTareasEnUnaSolaLinea());
-        gestorTa1.agregarTarea("Estudiar programación");
-        assertEquals("[Hacer la cama, Estudiar programación]", gestorTa1.getTareasEnUnaSolaLinea());
+        gestorTa1.agregarTarea("Estudiar programacion");
+        assertEquals("[Hacer la cama, Estudiar programacion]", gestorTa1.getTareasEnUnaSolaLinea());
         gestorTa1.agregarTarea("Comprar el pan");
-        assertEquals("[Hacer la cama, Estudiar programación, Comprar el pan]", gestorTa1.getTareasEnUnaSolaLinea());
+        assertEquals("[Hacer la cama, Estudiar programacion, Comprar el pan]", gestorTa1.getTareasEnUnaSolaLinea());
     }
 
     @Test
