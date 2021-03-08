@@ -84,13 +84,14 @@ public class Actividad0828Test
         assertEquals("maria@gmail.com", lastMail.getTo());
         assertEquals("pepe@gmail.com", lastMail.getFrom());
         assertEquals("Hola, Maria. Soy Pepe.", lastMail.getMessage());
-        assertEquals("Hola", lastMail.getSubject());        
-
+        assertEquals("Hola", lastMail.getSubject());     
+        
+        assertEquals(null, clienteMaria.getNextMailItem());
         lastMail = clienteMaria.getLastReceivedMail();
         assertEquals("maria@gmail.com", lastMail.getTo());
         assertEquals("pepe@gmail.com", lastMail.getFrom());
         assertEquals("Hola, Maria. Soy Pepe.", lastMail.getMessage());
-        assertEquals("Hola", lastMail.getSubject());          
+        assertEquals("Hola", lastMail.getSubject());    
     }     
 
     /**
