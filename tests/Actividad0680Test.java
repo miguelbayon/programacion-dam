@@ -111,7 +111,7 @@ public class Actividad0828Test
         MailItem mail = clientePepe.getNextMailItem();
         assertEquals("pepe@gmail.com", mail.getTo());
         assertEquals("maria@gmail.com", mail.getFrom());
-        assertEquals("Gracias por su mensaje. Le contestaré lo antes posible. Hola, Maria. Soy Pepe.", mail.getMessage());
+        assertEquals("Gracias por su mensaje. Le contestare lo antes posible. Hola, Maria. Soy Pepe.", mail.getMessage());
         assertEquals("RE: Hola", mail.getSubject());    
 
         clientePepe.sendMailItem("maria@gmail.com", "Hola de nuevo", "Hola, de nuevo Maria. Soy Pepe.");
@@ -119,7 +119,7 @@ public class Actividad0828Test
         mail = clientePepe.getNextMailItem();
         assertEquals("pepe@gmail.com", mail.getTo());
         assertEquals("maria@gmail.com", mail.getFrom());
-        assertEquals("Gracias por su mensaje. Le contestaré lo antes posible. Hola, de nuevo Maria. Soy Pepe.", mail.getMessage());
+        assertEquals("Gracias por su mensaje. Le contestare lo antes posible. Hola, de nuevo Maria. Soy Pepe.", mail.getMessage());
         assertEquals("RE: Hola de nuevo", mail.getSubject());          
     }
 
