@@ -1,9 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import static org.junit.Assert.*;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class Actividad9772Test
 {
@@ -15,8 +13,8 @@ public class Actividad9772Test
         assertEquals(1, objetoBase.cuantasPalabrasHayDeNLetras(origen, 5));
         assertEquals(1, objetoBase.cuantasPalabrasHayDeNLetras(origen, 6));
         assertEquals(0, objetoBase.cuantasPalabrasHayDeNLetras(origen, 7));
-    }    
-    
+    }
+
     @Test
     public void testColeccionVacia() {
         Actividad9772 objetoBase = new Actividad9772();
@@ -25,5 +23,5 @@ public class Actividad9772Test
         assertEquals(0, objetoBase.cuantasPalabrasHayDeNLetras(origen, 5));
         assertEquals(0, objetoBase.cuantasPalabrasHayDeNLetras(origen, 6));
         assertEquals(0, objetoBase.cuantasPalabrasHayDeNLetras(origen, 7));
-    }      
+    }
 }
