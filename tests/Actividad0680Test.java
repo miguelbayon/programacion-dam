@@ -9,7 +9,7 @@ import org.junit.Test;
  * @author  Miguel Bayon Alonso
  * @version 1.0
  */
-public class Actividad0828Test
+public class ClaseDeTest
 {
     /**
      * Test de la funcionalidad 01 (asunto)
