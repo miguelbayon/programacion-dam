@@ -1,43 +1,11 @@
-import static org.junit.Assert.*;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import java.util.ArrayList;
+import java.util.Arrays;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * The test class Test6322.
- *
- * @author  (your name)
- * @version (a version number or a date)
- */
+
 public class Actividad6322Test
 {
-    /**
-     * Default constructor for test class ContadorHuecosGofresTest
-     */
-    public Actividad6322Test()
-    {
-    }
-
-    /**
-     * Sets up the test fixture.
-     *
-     * Called before every test case method.
-     */
-    @Before
-    public void setUp()
-    {
-    }
-
-    /**
-     * Tears down the test fixture.
-     *
-     * Called after every test case method.
-     */
-    @After
-    public void tearDown()
-    {
-    }
-
     @Test
     public void test01()
     {
