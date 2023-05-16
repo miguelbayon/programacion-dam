@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class Actividad2501Tests {
+public class Actividad2501Test {
 
     private Actividad2501 objetoBase;
 
